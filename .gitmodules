@@ -1,0 +1,8 @@
+[submodule "apollo-angular-auth-client"]
+	path = apollo-angular-auth-client
+	url = git@github.com:murpyslaw/apollo-angular-auth-client.git
+	branch = master
+[submodule "apollo-angular-auth-server"]
+	path = apollo-angular-auth-server
+	url = git@github.com:murpyslaw/apollo-angular-auth-server.git
+	branch = master
