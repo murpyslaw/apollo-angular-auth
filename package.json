@@ -1,0 +1,36 @@
+{
+  "name": "apollo-angular-auth",
+  "version": "1.0.0",
+  "description": "simple client / server example using apollo-client and apollo-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/murpyslaw/apollo-angular-auth.git"
+  },
+  "keywords": [
+    "apollo",
+    "client",
+    "ts-node",
+    "typescript",
+    "javascrip",
+    "node",
+    "nodejs",
+    "angular2",
+    "angular4",
+    "agnularjs",
+    "auth",
+    "authentication",
+    "authorization",
+    "simple",
+    "example"
+  ],
+  "author": "Radoslav Ivanov Ivanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/murpyslaw/apollo-angular-auth/issues"
+  },
+  "homepage": "https://github.com/murpyslaw/apollo-angular-auth#readme"
+}
