@@ -4,7 +4,10 @@
   "description": "simple client / server example using apollo-client and apollo-server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-frontend": "cd apollo-angular-auth-client && npm start",
+    "start-backend": "cd apollo-angular-auth-server && npm start",
+    "start": "npm run start-frontend"
   },
   "repository": {
     "type": "git",
