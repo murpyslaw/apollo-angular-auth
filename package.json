@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-frontend": "cd apollo-angular-auth-client && npm start",
     "start-backend": "cd apollo-angular-auth-server && npm start",
-    "start": "npm run start-frontend"
+    "install": "cd apollo-angular-auth-client && npm i && cd ../apollo-angular-auth-server && npm i",
+    "start": "concurrently \"npm run start-frontend\" \"npm run start-backend\""
   },
   "repository": {
     "type": "git",
@@ -35,5 +36,8 @@
   "bugs": {
     "url": "https://github.com/murpyslaw/apollo-angular-auth/issues"
   },
-  "homepage": "https://github.com/murpyslaw/apollo-angular-auth#readme"
+  "homepage": "https://github.com/murpyslaw/apollo-angular-auth#readme",
+  "dependencies": {
+    "concurrently": "^3.5.0"
+  }
 }
